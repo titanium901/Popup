@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6319A02317C8730062DF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA63199F2317C8730062DF13 /* AppDelegate.swift */; };
+		CA6319A22317C8730062DF13 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319A12317C8730062DF13 /* FirstViewController.swift */; };
+		CA6319A42317C8730062DF13 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319A32317C8730062DF13 /* SecondViewController.swift */; };
+		CA6319A72317C8730062DF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6319A52317C8730062DF13 /* Main.storyboard */; };
+		CA6319A92317C8740062DF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6319A82317C8740062DF13 /* Assets.xcassets */; };
+		CA6319AC2317C8740062DF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6319AA2317C8740062DF13 /* LaunchScreen.storyboard */; };
+		CA6319B42317C9F00062DF13 /* DatePopoupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319B32317C9F00062DF13 /* DatePopoupViewController.swift */; };
+		CA6319B72317CD2A0062DF13 /* DatePopoupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6319B52317CD2A0062DF13 /* DatePopoupViewController.storyboard */; };
+		CA6319B92317CD660062DF13 /* SelectTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6319B82317CD660062DF13 /* SelectTimeViewController.storyboard */; };
+		CA6319BB2317CD9A0062DF13 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319BA2317CD9A0062DF13 /* SelectTimeViewController.swift */; };
+		CA6319C02317F3810062DF13 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319BF2317F3810062DF13 /* NotificationNameExtension.swift */; };
+		CA6319C22317F9740062DF13 /* CallBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319C12317F9740062DF13 /* CallBackViewController.swift */; };
+		CA6319C42318020A0062DF13 /* PopoupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6319C32318020A0062DF13 /* PopoupDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA63199C2317C8730062DF13 /* Popoups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popoups.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA63199F2317C8730062DF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6319A12317C8730062DF13 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CA6319A32317C8730062DF13 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CA6319A62317C8730062DF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6319A82317C8740062DF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6319AB2317C8740062DF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6319AD2317C8740062DF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6319B32317C9F00062DF13 /* DatePopoupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopoupViewController.swift; sourceTree = "<group>"; };
+		CA6319B62317CD2A0062DF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Popoups/Base.lproj/DatePopoupViewController.storyboard; sourceTree = "<group>"; };
+		CA6319B82317CD660062DF13 /* SelectTimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeViewController.storyboard; sourceTree = "<group>"; };
+		CA6319BA2317CD9A0062DF13 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		CA6319BF2317F3810062DF13 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		CA6319C12317F9740062DF13 /* CallBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallBackViewController.swift; sourceTree = "<group>"; };
+		CA6319C32318020A0062DF13 /* PopoupDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoupDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6319992317C8730062DF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6319932317C8730062DF13 = {
+			isa = PBXGroup;
+			children = (
+				CA63199E2317C8730062DF13 /* Popoups */,
+				CA63199D2317C8730062DF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA63199D2317C8730062DF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA63199C2317C8730062DF13 /* Popoups.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA63199E2317C8730062DF13 /* Popoups */ = {
+			isa = PBXGroup;
+			children = (
+				CA63199F2317C8730062DF13 /* AppDelegate.swift */,
+				CA6319BF2317F3810062DF13 /* NotificationNameExtension.swift */,
+				CA6319C32318020A0062DF13 /* PopoupDelegate.swift */,
+				CA6319BE2317D0450062DF13 /* Main */,
+				CA6319BD2317D0390062DF13 /* Date Popoup */,
+				CA6319BC2317D02C0062DF13 /* SelectDelegation */,
+				CA6319A82317C8740062DF13 /* Assets.xcassets */,
+				CA6319AA2317C8740062DF13 /* LaunchScreen.storyboard */,
+				CA6319AD2317C8740062DF13 /* Info.plist */,
+			);
+			path = Popoups;
+			sourceTree = "<group>";
+		};
+		CA6319BC2317D02C0062DF13 /* SelectDelegation */ = {
+			isa = PBXGroup;
+			children = (
+				CA6319B82317CD660062DF13 /* SelectTimeViewController.storyboard */,
+				CA6319BA2317CD9A0062DF13 /* SelectTimeViewController.swift */,
+			);
+			path = SelectDelegation;
+			sourceTree = "<group>";
+		};
+		CA6319BD2317D0390062DF13 /* Date Popoup */ = {
+			isa = PBXGroup;
+			children = (
+				CA6319B52317CD2A0062DF13 /* DatePopoupViewController.storyboard */,
+				CA6319B32317C9F00062DF13 /* DatePopoupViewController.swift */,
+			);
+			path = "Date Popoup";
+			sourceTree = "<group>";
+		};
+		CA6319BE2317D0450062DF13 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CA6319A52317C8730062DF13 /* Main.storyboard */,
+				CA6319A12317C8730062DF13 /* FirstViewController.swift */,
+				CA6319A32317C8730062DF13 /* SecondViewController.swift */,
+				CA6319C12317F9740062DF13 /* CallBackViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA63199B2317C8730062DF13 /* Popoups */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6319B02317C8740062DF13 /* Build configuration list for PBXNativeTarget "Popoups" */;
+			buildPhases = (
+				CA6319982317C8730062DF13 /* Sources */,
+				CA6319992317C8730062DF13 /* Frameworks */,
+				CA63199A2317C8730062DF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popoups;
+			productName = Popoups;
+			productReference = CA63199C2317C8730062DF13 /* Popoups.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6319942317C8730062DF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Yury Popov";
+				TargetAttributes = {
+					CA63199B2317C8730062DF13 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CA6319972317C8730062DF13 /* Build configuration list for PBXProject "Popoups" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6319932317C8730062DF13;
+			productRefGroup = CA63199D2317C8730062DF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA63199B2317C8730062DF13 /* Popoups */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA63199A2317C8730062DF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6319AC2317C8740062DF13 /* LaunchScreen.storyboard in Resources */,
+				CA6319B92317CD660062DF13 /* SelectTimeViewController.storyboard in Resources */,
+				CA6319A92317C8740062DF13 /* Assets.xcassets in Resources */,
+				CA6319B72317CD2A0062DF13 /* DatePopoupViewController.storyboard in Resources */,
+				CA6319A72317C8730062DF13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6319982317C8730062DF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6319A42317C8730062DF13 /* SecondViewController.swift in Sources */,
+				CA6319BB2317CD9A0062DF13 /* SelectTimeViewController.swift in Sources */,
+				CA6319B42317C9F00062DF13 /* DatePopoupViewController.swift in Sources */,
+				CA6319C02317F3810062DF13 /* NotificationNameExtension.swift in Sources */,
+				CA6319C22317F9740062DF13 /* CallBackViewController.swift in Sources */,
+				CA6319C42318020A0062DF13 /* PopoupDelegate.swift in Sources */,
+				CA6319A02317C8730062DF13 /* AppDelegate.swift in Sources */,
+				CA6319A22317C8730062DF13 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA6319A52317C8730062DF13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6319A62317C8730062DF13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6319AA2317C8740062DF13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6319AB2317C8740062DF13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6319B52317CD2A0062DF13 /* DatePopoupViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6319B62317CD2A0062DF13 /* Base */,
+			);
+			name = DatePopoupViewController.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6319AE2317C8740062DF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6319AF2317C8740062DF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6319B12317C8740062DF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54SGD4HVN5;
+				INFOPLIST_FILE = Popoups/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuryPopov.Popoups;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6319B22317C8740062DF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54SGD4HVN5;
+				INFOPLIST_FILE = Popoups/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuryPopov.Popoups;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6319972317C8730062DF13 /* Build configuration list for PBXProject "Popoups" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6319AE2317C8740062DF13 /* Debug */,
+				CA6319AF2317C8740062DF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6319B02317C8740062DF13 /* Build configuration list for PBXNativeTarget "Popoups" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6319B12317C8740062DF13 /* Debug */,
+				CA6319B22317C8740062DF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6319942317C8730062DF13 /* Project object */;
+}
