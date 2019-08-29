@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gFI-WN-6xz">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Delegation-->
+        <scene sceneID="ZDi-q8-cIb">
+            <objects>
+                <viewController id="gFI-WN-6xz" customClass="SelectTimeViewController" customModule="Popoups" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ml9-5c-pPe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8DY-NN-m17">
+                                <rect key="frame" x="20" y="44" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnz-fn-ZqR">
+                                <rect key="frame" x="296" y="44" width="98" height="30"/>
+                                <state key="normal" title="Selected Time"/>
+                                <connections>
+                                    <action selector="selectTime:" destination="gFI-WN-6xz" eventType="touchUpInside" id="SEX-ne-8ie"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Delegation" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BTp-S1-dn5">
+                                <rect key="frame" x="123.5" y="426.5" width="167" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DTW-Ot-H0t" firstAttribute="trailing" secondItem="wnz-fn-ZqR" secondAttribute="trailing" constant="20" id="7Kv-Q5-RDO"/>
+                            <constraint firstItem="wnz-fn-ZqR" firstAttribute="top" secondItem="Ml9-5c-pPe" secondAttribute="topMargin" id="CT1-xy-kUj"/>
+                            <constraint firstItem="BTp-S1-dn5" firstAttribute="centerX" secondItem="Ml9-5c-pPe" secondAttribute="centerX" id="Z8C-cu-deK"/>
+                            <constraint firstItem="BTp-S1-dn5" firstAttribute="centerY" secondItem="Ml9-5c-pPe" secondAttribute="centerY" id="cO2-FX-PSK"/>
+                            <constraint firstItem="8DY-NN-m17" firstAttribute="leading" secondItem="DTW-Ot-H0t" secondAttribute="leading" constant="20" id="mkz-b8-KlB"/>
+                            <constraint firstItem="8DY-NN-m17" firstAttribute="top" secondItem="DTW-Ot-H0t" secondAttribute="top" id="wve-5R-3Be"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DTW-Ot-H0t"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Delegation" image="first" id="XhK-Wp-kkw"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="timeLabel" destination="8DY-NN-m17" id="TrV-Fl-Lxn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6O-bE-fBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="198"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
+</document>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--NotifOne-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Popoups" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Notification Center" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="62" y="426.5" width="290" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                                <rect key="frame" x="110" y="477.5" width="194.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwd-TY-s69">
+                                <rect key="frame" x="20" y="44" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDH-yd-gbP">
+                                <rect key="frame" x="297" y="44" width="97" height="30"/>
+                                <state key="normal" title="Selected Date"/>
+                                <connections>
+                                    <segue destination="Ug9-7H-4Tg" kind="presentation" identifier="toDatePopoupViewControllerSeque" id="IBT-fr-kWm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oDH-yd-gbP" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="4gk-Ab-BlU"/>
+                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="Wwd-TY-s69" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="M9h-Y4-vta"/>
+                            <constraint firstItem="Wwd-TY-s69" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="20" id="cI2-DR-jgE"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
+                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
+                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="oDH-yd-gbP" secondAttribute="trailing" constant="20" id="iY0-1y-YZJ"/>
+                            <constraint firstItem="oDH-yd-gbP" firstAttribute="leading" relation="lessThanOrEqual" secondItem="Wwd-TY-s69" secondAttribute="trailing" constant="235" id="uuM-kq-XaC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="NotifOne" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="Wwd-TY-s69" id="vFU-Go-bvn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="-743"/>
+        </scene>
+        <!--SelectTimeViewController-->
+        <scene sceneID="aFs-YI-oCT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SelectTimeViewController" id="Mzu-gQ-ieE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Lgz-UJ-R2B"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBE-Ux-agN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="438"/>
+        </scene>
+        <!--NotifTwo-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Popoups" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Notification Center" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
+                                <rect key="frame" x="62" y="426.5" width="290" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="99.5" y="477.5" width="215" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axw-Wl-Q0E">
+                                <rect key="frame" x="20" y="44" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7Y-km-eVM">
+                                <rect key="frame" x="297" y="44" width="97" height="30"/>
+                                <state key="normal" title="Selected Date"/>
+                                <connections>
+                                    <segue destination="Ug9-7H-4Tg" kind="presentation" identifier="toDatePopoupViewControllerSeque" id="wot-wa-cwT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="a7Y-km-eVM" secondAttribute="trailing" constant="20" id="Cpy-rB-qZQ"/>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
+                            <constraint firstItem="a7Y-km-eVM" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="HHm-tn-bDa"/>
+                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
+                            <constraint firstItem="axw-Wl-Q0E" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="WCP-HV-vxl"/>
+                            <constraint firstItem="axw-Wl-Q0E" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="20" id="WDS-s7-FyA"/>
+                            <constraint firstItem="a7Y-km-eVM" firstAttribute="leading" relation="lessThanOrEqual" secondItem="axw-Wl-Q0E" secondAttribute="trailing" constant="235" id="nLI-Pk-Nwh"/>
+                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
+                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="NotifTwo" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="axw-Wl-Q0E" id="sMn-82-JkX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="-74"/>
+        </scene>
+        <!--CallBack-->
+        <scene sceneID="oJO-uf-rIX">
+            <objects>
+                <viewController id="Lkh-wT-CLJ" customClass="CallBackViewController" customModule="Popoups" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="90a-9W-cdF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efp-18-1ZQ">
+                                <rect key="frame" x="20" y="44" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADQ-bq-03t">
+                                <rect key="frame" x="297" y="44" width="97" height="30"/>
+                                <state key="normal" title="Selected Date"/>
+                                <connections>
+                                    <segue destination="Ug9-7H-4Tg" kind="presentation" identifier="toDatePopoupViewControllerSeque" id="Df5-xw-mb5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="CallBack" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="YOs-WQ-JxC">
+                                <rect key="frame" x="139" y="426.5" width="136" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4RX-c8-RVk" firstAttribute="trailing" secondItem="ADQ-bq-03t" secondAttribute="trailing" constant="20" id="4et-Cw-MTS"/>
+                            <constraint firstItem="YOs-WQ-JxC" firstAttribute="centerX" secondItem="90a-9W-cdF" secondAttribute="centerX" id="AOo-GF-lz3"/>
+                            <constraint firstItem="efp-18-1ZQ" firstAttribute="leading" secondItem="4RX-c8-RVk" secondAttribute="leading" constant="20" id="CHF-oK-bN0"/>
+                            <constraint firstItem="ADQ-bq-03t" firstAttribute="leading" relation="lessThanOrEqual" secondItem="efp-18-1ZQ" secondAttribute="trailing" constant="235" id="IeB-3Z-AFc"/>
+                            <constraint firstItem="ADQ-bq-03t" firstAttribute="top" secondItem="4RX-c8-RVk" secondAttribute="top" id="SOU-kk-f3R"/>
+                            <constraint firstItem="efp-18-1ZQ" firstAttribute="top" secondItem="4RX-c8-RVk" secondAttribute="top" id="bKW-y4-uIO"/>
+                            <constraint firstItem="YOs-WQ-JxC" firstAttribute="centerY" secondItem="90a-9W-cdF" secondAttribute="centerY" id="hve-YA-KQQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4RX-c8-RVk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CallBack" image="second" id="WCN-Qh-63q"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="efp-18-1ZQ" id="TO6-9A-gwp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmh-j6-y8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="586"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="Mzu-gQ-ieE" kind="relationship" relationship="viewControllers" id="gax-CL-T2K"/>
+                        <segue destination="Lkh-wT-CLJ" kind="relationship" relationship="viewControllers" id="95k-0Q-Kyx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--DatePopoupViewController-->
+        <scene sceneID="Q69-da-2eZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DatePopoupViewController" id="Ug9-7H-4Tg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gSO-a6-HZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1419" y="-17"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Df5-xw-mb5"/>
+    </inferredMetricsTieBreakers>
+</document>
